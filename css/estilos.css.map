@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACC,YAAK;EACJ,OAAO,EAAE,GAAG",
+"sources": ["individual/_menu.sass"],
+"names": [],
+"file": "estilos.css"
+}
