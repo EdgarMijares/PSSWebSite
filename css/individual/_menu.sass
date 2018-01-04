@@ -1,3 +1,74 @@
 header
-	.menu
-		z-index: 100
+	background: url(../img/bg_banner.jpg)
+	background-size: cover
+	background-position: center 0
+	background-repeat: none
+	.filtro
+		background: rgba(0,0,0,.8)
+		.contenedor_logo_menu
+			padding: 25px 0
+			border-bottom: 1px solid rgba(255,255,255,.4)
+			.logo
+				a
+					display: block
+					img
+						height: 60px
+						vertical-align: top
+			.menu
+				text-align: right
+				line-height: 50px
+				a
+					color: #FFF
+					margin-left: 60px
+					font-size: 20px
+					&:hover
+						transition: .5s
+						color: #C6CECE
+		.textos
+			color: #fff
+			text-align: center
+			padding: 40px 0 150px 0
+			margin: 0
+			.logo
+				height: 250px
+				padding-bottom: 40px
+			.primera_linea
+				font-weight: 400
+				font-size: 30px
+				line-height: 30px
+				margin-bottom: 30px
+				letter-spacing: 4px
+			.segunda_linea
+				font-weight: 300
+				font-size: 23px
+				line-height: 23px
+				margin-bottom: 60px
+				letter-spacing: 2px
+			.contenedor-btns
+				a
+					border-radius: 3px
+					border: 2px solid #FFF
+					color: #FFF
+					padding: 12px 0
+					font-weight: 600
+					width: 25%
+					display: inline-block
+					text-align: center
+					margin: 10px 20px
+					&:hover
+						transition: .5s
+						text-decoration: none
+						background: #FFF
+						color: #4f4f4f
+@media screen and (max-width: 500px)
+	header
+		.filtro
+			.contenedor_logo_menu
+				.logo
+					a
+						img
+							display: none
+			.textos
+				.contenedor-btns
+					a
+						width: 90%
