@@ -77,7 +77,7 @@ header {
   header .filtro .textos .contenedor-btns a {
     width: 90%; } }
 .main .caracteristicas {
-  padding: 70px 0; }
+  padding: 70px 0 35px 0; }
   .main .caracteristicas .titulo {
     color: #FFF;
     text-align: center;
@@ -98,5 +98,39 @@ header {
     .main .caracteristicas .caracteristica .parrafo {
       font-weight: 400;
       font-size: 18px; }
+.main .fotos {
+  background: #243F47;
+  padding: 35px 0 35px 0; }
+  .main .fotos .foto .derecha {
+    text-align: right; }
+  .main .fotos .foto .titulo {
+    padding-bottom: 30px;
+    color: #FFF; }
+  .main .fotos .foto .lista {
+    margin-left: 20px; }
+.main .clientes {
+  background: #26424B;
+  padding: 35px 0; }
+  .main .clientes .titulo {
+    color: #FFF;
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 35px; }
+
+@media screen and (max-width: 500px) {
+  .main .fotos .orden {
+    display: flex;
+    flex-wrap: wrap; }
+    .main .fotos .orden .texto-1 {
+      order: 2; }
+      .main .fotos .orden .texto-1 .derecha {
+        text-align: left; }
+    .main .fotos .orden .thumb {
+      order: 1; }
+  .main .fotos .titulo {
+    font-size: 1.8em; }
+  .main .fotos .parrafo .delete_responsive {
+    display: none; } }
 
 /*# sourceMappingURL=estilos.css.map */

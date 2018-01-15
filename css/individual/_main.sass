@@ -1,6 +1,6 @@
 .main
 	.caracteristicas
-		padding: 70px 0
+		padding: 70px 0 35px 0
 		.titulo
 			color: #FFF
 			text-align: center
@@ -21,3 +21,44 @@
 			.parrafo
 				font-weight: 400
 				font-size: 18px
+	.fotos
+		background: #243F47
+		padding: 35px 0 35px 0
+		.foto
+			.derecha
+				text-align: right
+			.titulo
+				padding-bottom: 30px
+				color: #FFF
+			.lista
+				margin-left: 20px
+	.clientes
+		background: #26424B
+		padding: 35px 0
+		.titulo
+			color: #FFF
+			text-align: center
+			font-weight: 400
+			font-size: 30px
+			margin-bottom: 35px
+
+
+@media screen and (max-width: 500px)
+	.main
+		.fotos
+			.orden
+				display: flex
+				flex-wrap: wrap
+				.texto-1
+					order: 2
+					.derecha
+						text-align: left
+				.thumb
+					order: 1
+			.titulo
+				font-size: 1.8em
+			.parrafo
+				.delete_responsive
+					display: none
+			.thumb
+
