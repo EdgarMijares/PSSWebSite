@@ -18,6 +18,7 @@ header
 				text-align: right
 				line-height: 50px
 				a
+					text-decoration: none
 					color: #FFF
 					margin-left: 60px
 					font-size: 20px
@@ -60,14 +61,28 @@ header
 						text-decoration: none
 						background: #FFF
 						color: #4f4f4f
-@media screen and (max-width: 500px)
+
+@media screen and (max-width: 990px)
 	header
 		.filtro
 			.contenedor_logo_menu
+				padding: 8px 0
+				.menu
+					text-align: center
+					a
+						margin-left: 30px
+						font-size: 1em
 				.logo
 					a
 						img
 							display: none
+				.contenedor-btns
+					a
+						width: 300px
+
+@media screen and (max-width: 500px)
+	header
+		.filtro
 			.textos
 				.primera_linea
 					letter-spacing: 4px

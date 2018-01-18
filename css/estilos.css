@@ -27,6 +27,7 @@ header {
         text-align: right;
         line-height: 50px; }
         header .filtro .contenedor_logo_menu .menu a {
+          text-decoration: none;
           color: #FFF;
           margin-left: 60px;
           font-size: 20px; }
@@ -69,9 +70,19 @@ header {
           background: #FFF;
           color: #4f4f4f; }
 
+@media screen and (max-width: 990px) {
+  header .filtro .contenedor_logo_menu {
+    padding: 8px 0; }
+    header .filtro .contenedor_logo_menu .menu {
+      text-align: center; }
+      header .filtro .contenedor_logo_menu .menu a {
+        margin-left: 30px;
+        font-size: 1em; }
+    header .filtro .contenedor_logo_menu .logo a img {
+      display: none; }
+    header .filtro .contenedor_logo_menu .contenedor-btns a {
+      width: 300px; } }
 @media screen and (max-width: 500px) {
-  header .filtro .contenedor_logo_menu .logo a img {
-    display: none; }
   header .filtro .textos .primera_linea {
     letter-spacing: 4px; }
   header .filtro .textos .contenedor-btns a {
