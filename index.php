@@ -148,51 +148,59 @@
 			</div>
 		</div>
 
+		<!--div class="productos"><div-->
+
 		<div class="precios">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<h3>Precios</h3>
+						<h3 class="titulo">Precios</h3>
 					</div>
 				</div>
 				<div class="row">
 					<div class="precio col-md-4 col-12">
 						<div class="plan color1">
-							<p class="nombre">Sitio web</p>
-							<p class="precio">$3500</p> 
-							<ul class="caracteristicas">
-								<li>1 cuenta</li>
-								<li>10 GB de espacio</li>
-								<li>Correo electronico</li>
-							</ul>
-							<p class="nota">Paquete basico no incluye mejoras.</p>
-							<a href="#" class="btn">Mas información</a>
+							<div class="filtro">
+								<p class="nombre">Sitio web</p>
+								<p class="precio">$3500.°°</p> 
+								<ul class="caracteristicas">
+									<li>1 cuenta</li>
+									<li>10 GB de espacio</li>
+									<li>Correo electronico</li>
+								</ul>
+								<p class="nota">Paquete basico no incluye mejoras.</p>
+								<a href="#" class="btn">Mas información</a>
+							</div>
 						</div>
 					</div>
 					<div class="precio col-md-4 col-12">
 						<div class="plan color2">
-							<p class="nombre">Aplicacion web</p>
-							<p class="precio">$5500</p> 
-							<ul class="caracteristicas">
-								<li>3 cuentas</li>
-								<li>10 GB de espacio</li>
-								<li>Base de datos</li>
-							</ul>
-							<p class="nota">No incluye el costo de la aplicaión.</p>
-							<a href="#" class="btn">Mas información</a>
+							<div class="filtro">
+								<p class="nombre">Aplicacion web</p>
+								<p class="precio">$5500.°°</p> 
+								<ul class="caracteristicas">
+									<li>3 cuentas</li>
+									<li>10 GB de espacio</li>
+									<li>Base de datos</li>
+								</ul>
+								<p class="nota">No incluye el costo de la aplicaión.</p>
+								<a href="#" class="btn">Mas información</a>
+							</div>
 						</div>
 					</div>
 					<div class="precio col-md-4 col-12">
 						<div class="plan color3">
-							<p class="nombre">Software</p>
-							<p class="precio">$ - - - -</p> 
-							<ul class="caracteristicas">
-								<li>Documentación</li>
-								<li>Desarrollo</li>
-								<li>Implementacón</li>
-							</ul>
-							<p class="nota">Todo se cotiza desde cero.</p>
-							<a href="#" class="btn">Mas información</a>
+							<div class="filtro">
+								<p class="nombre">Software</p>
+								<p class="precio">$ - - - -</p> 
+								<ul class="caracteristicas">
+									<li>Documentación</li>
+									<li>Desarrollo</li>
+									<li>Implementacón</li>
+								</ul>
+								<p class="nota">Todo se cotiza desde cero.</p>
+								<a href="#" class="btn">Mas información</a>
+							</div>
 						</div>
 					</div>
 				</div>

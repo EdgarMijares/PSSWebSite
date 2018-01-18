@@ -41,6 +41,101 @@
 			font-weight: 400
 			font-size: 30px
 			margin-bottom: 35px
+	.precios
+		background: #243F47
+		padding: 30px 0
+		.titulo
+			color: #FFF
+			text-align: center
+			font-weight: 400
+			font-size: 30px
+			margin-bottom: 35px
+		.plan
+			background: #F5F5F5
+			color: #000
+			text-align: center
+			font-weight: 300
+			-webkit-box-shadow: 0 0 15px 0 rgba(255,255,255,.5)
+			box-shadow: 0 0 15px 0 rgba(255,255,255,.5)
+			margin-bottom: 15px
+			.nombre
+				font-size: 1.5em
+				line-height: 1.5em
+				margin-bottom: 20px
+			.precio
+				font-size: 1.7em
+				margin-bottom: 20px
+				font-weight: 400
+			.caracteristicas
+				list-style: none
+				padding: 0 20px
+				margin-bottom: 20px
+				font-weight: 400
+				li
+					font-size: 1em
+					padding: 10px
+					border-bottom: 1px solid rgba(0,0,0,.2)
+			.nota
+				color: rgba(0,0,0,.75)
+			.btn
+				text-decoration: none
+				width: 90%
+				padding: 10px 0
+				text-align: center
+				display: inline-block
+				border-radius: 5px
+				font-weight: 600
+			&.color1
+				background: url(../img/bg/bg-card-1.jpg)
+				background-size: cover
+				background-position: center center
+				background-repeat: none
+				.filtro
+					padding: 50px 0
+					background-color: rgba(207,219,237,.9)
+					.nombre, .precio
+						color: #0087B2
+					a
+						color: #0087B2
+						border: 2px solid #0087B2
+						&:hover
+							color: #FFF
+							background: #0087B2
+							transition: .5s
+			&.color2
+				background: url(../img/bg/bg-card-2.jpg)
+				background-size: cover
+				background-position: center center
+				background-repeat: none
+				.filtro
+					padding: 50px 0
+					background-color: rgba(207,219,237,.9)
+					.nombre, .precio
+						color: #E87B0C
+					a
+						color: #E87B0C
+						border: 2px solid #E87B0C
+						&:hover
+							color: #FFF
+							background: #E87B0C
+							transition: .5s
+			&.color3
+				background: url(../img/bg/bg-card-3.jpg)
+				background-size: cover
+				background-position: center center
+				background-repeat: none
+				.filtro
+					padding: 50px 0
+					background-color: rgba(207,219,237,.9)
+					.nombre, .precio
+						color: #243F47
+					a
+						color: #243F47
+						border: 2px solid #243F47
+						&:hover
+							color: #FFF
+							background: #243F47
+							transition: .5s
 
 @media screen and (max-width: 500px)
 	.main
@@ -59,4 +154,3 @@
 			.parrafo
 				.delete_responsive
 					display: none
-			.thumb

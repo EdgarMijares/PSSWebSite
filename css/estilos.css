@@ -83,6 +83,8 @@ header {
     header .filtro .contenedor_logo_menu .contenedor-btns a {
       width: 300px; } }
 @media screen and (max-width: 500px) {
+  header .filtro .contenedor_logo_menu .menu {
+    text-align: center; }
   header .filtro .textos .primera_linea {
     letter-spacing: 4px; }
   header .filtro .textos .contenedor-btns a {
@@ -128,6 +130,101 @@ header {
     font-weight: 400;
     font-size: 30px;
     margin-bottom: 35px; }
+.main .precios {
+  background: #243F47;
+  padding: 30px 0; }
+  .main .precios .titulo {
+    color: #FFF;
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 35px; }
+  .main .precios .plan {
+    background: #F5F5F5;
+    color: #000;
+    text-align: center;
+    font-weight: 300;
+    -webkit-box-shadow: 0 0 15px 0 rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 15px 0 rgba(255, 255, 255, 0.5);
+    margin-bottom: 15px; }
+    .main .precios .plan .nombre {
+      font-size: 1.5em;
+      line-height: 1.5em;
+      margin-bottom: 20px; }
+    .main .precios .plan .precio {
+      font-size: 1.7em;
+      margin-bottom: 20px;
+      font-weight: 400; }
+    .main .precios .plan .caracteristicas {
+      list-style: none;
+      padding: 0 20px;
+      margin-bottom: 20px;
+      font-weight: 400; }
+      .main .precios .plan .caracteristicas li {
+        font-size: 1em;
+        padding: 10px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
+    .main .precios .plan .nota {
+      color: rgba(0, 0, 0, 0.75); }
+    .main .precios .plan .btn {
+      text-decoration: none;
+      width: 90%;
+      padding: 10px 0;
+      text-align: center;
+      display: inline-block;
+      border-radius: 5px;
+      font-weight: 600; }
+    .main .precios .plan.color1 {
+      background: url(../img/bg/bg-card-1.jpg);
+      background-size: cover;
+      background-position: center center;
+      background-repeat: none; }
+      .main .precios .plan.color1 .filtro {
+        padding: 50px 0;
+        background-color: rgba(207, 219, 237, 0.9); }
+        .main .precios .plan.color1 .filtro .nombre, .main .precios .plan.color1 .filtro .precio {
+          color: #0087B2; }
+        .main .precios .plan.color1 .filtro a {
+          color: #0087B2;
+          border: 2px solid #0087B2; }
+          .main .precios .plan.color1 .filtro a:hover {
+            color: #FFF;
+            background: #0087B2;
+            transition: 0.5s; }
+    .main .precios .plan.color2 {
+      background: url(../img/bg/bg-card-2.jpg);
+      background-size: cover;
+      background-position: center center;
+      background-repeat: none; }
+      .main .precios .plan.color2 .filtro {
+        padding: 50px 0;
+        background-color: rgba(207, 219, 237, 0.9); }
+        .main .precios .plan.color2 .filtro .nombre, .main .precios .plan.color2 .filtro .precio {
+          color: #E87B0C; }
+        .main .precios .plan.color2 .filtro a {
+          color: #E87B0C;
+          border: 2px solid #E87B0C; }
+          .main .precios .plan.color2 .filtro a:hover {
+            color: #FFF;
+            background: #E87B0C;
+            transition: 0.5s; }
+    .main .precios .plan.color3 {
+      background: url(../img/bg/bg-card-3.jpg);
+      background-size: cover;
+      background-position: center center;
+      background-repeat: none; }
+      .main .precios .plan.color3 .filtro {
+        padding: 50px 0;
+        background-color: rgba(207, 219, 237, 0.9); }
+        .main .precios .plan.color3 .filtro .nombre, .main .precios .plan.color3 .filtro .precio {
+          color: #243F47; }
+        .main .precios .plan.color3 .filtro a {
+          color: #243F47;
+          border: 2px solid #243F47; }
+          .main .precios .plan.color3 .filtro a:hover {
+            color: #FFF;
+            background: #243F47;
+            transition: 0.5s; }
 
 @media screen and (max-width: 500px) {
   .main .fotos .orden {
