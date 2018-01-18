@@ -4,10 +4,9 @@
 	<meta charset="UTF-8">
 	<title>Progress System Software</title>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Barlow:300,400,600" rel="stylesheet">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/fontawesome/font-awesome.min.css">
-	<link rel="stylesheet" href="css/fullpage/jquery.fullpage.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Barlow:300,400,600" rel="stylesheet">
 	<link rel="stylesheet" href="css/estilos.css">
 
 	<meta name="theme-color" content="#26424B">
@@ -48,7 +47,7 @@
 					<div class="col-sm-4 caracteristica">
 						<img src="img/iconos/icono2.png" alt="">
 						<h3 class="primera_linea">Sitio web</h3>
-						<p class="parrafo">Con un sitio Web, potenciales clientes pueden informarse de sus productos y servicios a cualquier hora, desde cualquier lugar con conexión a Internet</p>
+						<p class="parrafo">Con un sitio Web, potenciales clientes pueden informarse de sus productos y servicios a cualquier hora, desde cualquier lugar con conexión a Internet.</p>
 					</div>
 				
 					<div class="col-sm-4 caracteristica">

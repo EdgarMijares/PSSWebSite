@@ -83,7 +83,9 @@ header {
     header .filtro .contenedor_logo_menu .logo a img {
       display: none; }
     header .filtro .contenedor_logo_menu .contenedor-btns a {
-      width: 300px; } }
+      width: 300px; }
+  header .filtro .textos {
+    padding: 40px 0 75px 0; } }
 @media screen and (max-width: 500px) {
   header .filtro .contenedor_logo_menu .menu {
     text-align: center; }
