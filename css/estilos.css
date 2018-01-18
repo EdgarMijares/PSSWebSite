@@ -12,7 +12,9 @@ header {
   background: url(../img/bg_banner.jpg);
   background-size: cover;
   background-position: center 0;
-  background-repeat: none; }
+  background-repeat: none;
+  -webkit-box-shadow: 0 0 100px 0 rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 100px 0 rgba(255, 255, 255, 0.2); }
   header .filtro {
     background: rgba(0, 0, 0, 0.8); }
     header .filtro .contenedor_logo_menu {
@@ -226,6 +228,76 @@ header {
             background: #243F47;
             transition: 0.5s; }
 
+footer {
+  font-weight: 300; }
+  footer .contacto .titulo {
+    text-align: center;
+    color: #FFF;
+    font-weight: 400;
+    font-size: 30px;
+    margin: 35px 0 20px 0; }
+  footer .contacto .btn {
+    text-decoration: none;
+    width: 100%;
+    padding: 5px 0;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: 400;
+    background: #0087B2;
+    color: #FFF;
+    margin-bottom: 10px; }
+    footer .contacto .btn:hover {
+      background: #FFF;
+      color: #0087B2;
+      transition: 0.5s; }
+  footer .contacto .redes {
+    text-align: center;
+    font-size: 3em; }
+    footer .contacto .redes a {
+      color: #C6CECE; }
+      footer .contacto .redes a:hover {
+        transition: 0.5s;
+        color: #F5F5F5; }
+  footer .contacto .contactos {
+    font-size: 1.2em;
+    text-align: center;
+    padding: 10px; }
+    footer .contacto .contactos .email {
+      margin-top: 10px;
+      font-size: 1em; }
+    footer .contacto .contactos a {
+      text-decoration: none;
+      color: #C6CECE;
+      margin: 20px; }
+      footer .contacto .contactos a:hover {
+        transition: 0.5s;
+        color: #F5F5F5; }
+      footer .contacto .contactos a span {
+        margin-right: 10px; }
+  footer .contacto .img-logo {
+    float: right;
+    width: 100%;
+    margin: 35px 0; }
+  footer .footer {
+    background: #242629;
+    padding: 35px; }
+    footer .footer .titulo {
+      color: #FFF; }
+    footer .footer .comunidades {
+      text-align: right;
+      color: #FFF; }
+      footer .footer .comunidades ul {
+        list-style: none;
+        margin-bottom: 20px;
+        font-weight: 400; }
+        footer .footer .comunidades ul li a {
+          text-decoration: none;
+          color: #C6CECE; }
+          footer .footer .comunidades ul li a:hover {
+            transition: 0.3s;
+            color: #FFF; }
+
 @media screen and (max-width: 500px) {
   .main .fotos .orden {
     display: flex;
@@ -239,6 +311,17 @@ header {
   .main .fotos .titulo {
     font-size: 1.8em; }
   .main .fotos .parrafo .delete_responsive {
+    display: none; }
+
+  footer .contacto .redes {
+    text-align: center;
+    font-size: 2em; }
+  footer .contacto .contactos .email {
+    margin-top: 0px;
+    font-size: 0.83em; }
+    footer .contacto .contactos .email span {
+      margin-right: 0; }
+  footer .contacto .img-logo {
     display: none; } }
 
 /*# sourceMappingURL=estilos.css.map */
