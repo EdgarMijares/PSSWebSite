@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/fontawesome/font-awesome.min.css">
 	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="icon" type="image/png" href="/img/logosolo.png"/>
 
 	<meta name="theme-color" content="#26424B">
 </head>
@@ -20,15 +21,15 @@
 					<h2 class="primera_linea">PROGRESS SYSTEM SOFTWARE</h2>
 					<h3 class="segunda_linea">EL PROGRESO SIEMPRE IMPLICARA UN RIESGO</h3>
 					<div class="contenedor-btns">
-						<a href="#">Caracteristicas</a>
-						<a href="#">Costos $</a>
+						<a href="#caracteristicas">Caracteristicas</a>
+						<a href="#precio">Costos $</a>
 					</div>
 				</div>
 			</div>
 		</div>
 	</header>
 	<section class="main" id="fullpage">
-		<div class="caracteristicas">
+		<div class="caracteristicas" id="caracteristicas">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
@@ -219,22 +220,22 @@
 						</div>
 						<div class="row redes">
 							<div class="col-2">
-								<a href="#" class="facebook"><span class="fa fa-facebook-official"></span></a>
+								<a target="_blank" href="https://www.facebook.com/PSystemSoftware" class="facebook"><span class="fa fa-facebook-official"></span></a>
 							</div>
 							<div class="col-2">
-								<a href="#" class="linkedin"><span class="fa fa-linkedin"></span></a>
+								<a target="_blank" href="https://www.linkedin.com/company/psystemsoftware/" class="linkedin"><span class="fa fa-linkedin"></span></a>
 							</div>
 							<div class="col-2">
-								<a href="#" class="twitter"><span class="fa fa-twitter"></span></a>
+								<a target="_blank" href="https://twitter.com/PSystemSoftware" class="twitter"><span class="fa fa-twitter"></span></a>
 							</div>
 							<div class="col-2">
-								<a href="#" class="instagram"><span class="fa fa-instagram"></span></a>
+								<a target="_blank" href="https://www.instagram.com/psystemsoftware" class="instagram"><span class="fa fa-instagram"></span></a>
 							</div>
 							<div class="col-2">
-								<a href="#" class="youtube"><span class="fa fa-youtube"></span></a>
+								<a target="_blank" href="https://www.youtube.com/channel/UCGPyxARpJh056Rkult-vOLQ" class="youtube"><span class="fa fa-youtube"></span></a>
 							</div>
 							<div class="col-2">
-								<a href="#" class="github"><span class="fa fa-github"></span></a>
+								<a target="_blank" href="https://bitbucket.org/ProgressSystemSoftware/" class="bitbucket"><span class="fa fa-bitbucket"></span></a>
 							</div>
 						</div>
 						<div class="row contactos">
@@ -297,6 +298,12 @@
 	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<script type="text/javascript" src="js/main.min.js"></script>
 	<script>
+		$('a[href=#caracteristicas]').click(function (event){
+			event.stopPropagation();
+			var Position = jQuery('[id="caracteristicas"]').offset().top;
+			jQuery('html, body').animate({ scrollTop: Position }, 1100);
+			return false;
+		});
 		$('a[href=#inicio]').click(function (event){
 			event.stopPropagation();
 			var Position = jQuery('[id="inicio"]').offset().top;

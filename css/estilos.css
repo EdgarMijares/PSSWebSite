@@ -141,19 +141,20 @@ header {
     right: 100%;
     margin: 0;
     overflow: scroll; }
+    header .filtro .contenedor_logo_menu .menu li {
+      display: block;
+      border-bottom: 1px solid rgba(255, 255, 225, 0.2); }
+      header .filtro .contenedor_logo_menu .menu li a {
+        display: block; }
     header .filtro .contenedor_logo_menu .menu .redes {
       display: inline-block;
       margin: 0 10px;
       border-bottom: 1px solid rgba(255, 255, 225, 0.2); }
       header .filtro .contenedor_logo_menu .menu .redes a {
+        display: inline-block;
         color: #FFF;
         font-size: 2em;
         padding: 0px 15px; }
-    header .filtro .contenedor_logo_menu .menu li {
-      display: block;
-      border-bottom: 1px solid rgba(255, 255, 225, 0.2); }
-      header .filtro .contenedor_logo_menu .menu li a {
-        display: inline-block; }
   header .filtro .textos .primera_linea {
     margin-bottom: 20px; }
   header .filtro .textos .segunda_linea {
