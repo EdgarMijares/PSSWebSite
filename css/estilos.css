@@ -1,6 +1,12 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow:300,400,600");
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box; }
 
 body {
   font-family: "Barlow", sans-serif;
@@ -18,28 +24,53 @@ header {
   header .filtro {
     background: rgba(0, 0, 0, 0.8); }
     header .filtro .contenedor_logo_menu {
-      padding: 25px 0;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
-      header .filtro .contenedor_logo_menu .logo a {
-        display: block; }
-        header .filtro .contenedor_logo_menu .logo a img {
-          height: 60px;
-          vertical-align: top; }
+      background: rgba(0, 0, 0, 0.5);
+      width: 100%;
+      z-index: 100;
+      position: fixed;
+      transition: 0.5s; }
+      header .filtro .contenedor_logo_menu .menu_bar {
+        display: none; }
       header .filtro .contenedor_logo_menu .menu {
-        text-align: right;
-        line-height: 50px; }
-        header .filtro .contenedor_logo_menu .menu a {
-          text-decoration: none;
-          color: #FFF;
-          margin-left: 60px;
-          font-size: 20px; }
-          header .filtro .contenedor_logo_menu .menu a:hover {
-            transition: 0.5s;
-            color: #C6CECE; }
+        text-align: center; }
+        header .filtro .contenedor_logo_menu .menu li {
+          list-style: none;
+          display: inline-block;
+          position: relative; }
+          header .filtro .contenedor_logo_menu .menu li:hover {
+            color: #C6CECE;
+            background: rgba(255, 255, 255, 0.5);
+            transition: 0.5s; }
+            header .filtro .contenedor_logo_menu .menu li:hover .children {
+              display: block; }
+          header .filtro .contenedor_logo_menu .menu li .children {
+            display: none;
+            position: absolute;
+            width: 150%;
+            z-index: 100; }
+            header .filtro .contenedor_logo_menu .menu li .children li {
+              display: block;
+              overflow: hidden;
+              border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
+          header .filtro .contenedor_logo_menu .menu li a {
+            text-decoration: none;
+            padding: 15px 30px;
+            display: block;
+            font-weight: 400;
+            color: #FFF;
+            font-size: 1.2em; }
+        header .filtro .contenedor_logo_menu .menu .redes {
+          display: none; }
+    header .filtro .contenedor_logo_menu::before {
+      position: absolute;
+      filter: blur(100px);
+      opacity: 1;
+      z-index: -1; }
     header .filtro .textos {
+      position: relative;
       color: #fff;
       text-align: center;
-      padding: 40px 0 150px 0;
+      padding: 120px 0 150px 0;
       margin: 0; }
       header .filtro .textos .logo {
         height: 300px;
@@ -73,24 +104,60 @@ header {
           color: #4f4f4f; }
 
 @media screen and (max-width: 990px) {
-  header .filtro .contenedor_logo_menu {
-    padding: 8px 0; }
-    header .filtro .contenedor_logo_menu .menu {
-      text-align: center; }
-      header .filtro .contenedor_logo_menu .menu a {
-        margin-left: 30px;
-        font-size: 1em; }
-    header .filtro .contenedor_logo_menu .logo a img {
-      display: none; }
-    header .filtro .contenedor_logo_menu .contenedor-btns a {
-      width: 300px; }
   header .filtro .textos {
-    padding: 40px 0 75px 0; } }
-@media screen and (max-width: 500px) {
+    padding: 95px 0 75px 0; }
+    header .filtro .textos .primera_linea {
+      letter-spacing: 4px; }
+    header .filtro .textos .contenedor-btns a {
+      width: 70%; } }
+@media screen and (max-width: 800px) {
+  header .filtro .contenedor_logo_menu .menu_bar {
+    right: 0;
+    display: block;
+    width: 100%;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.8);
+    top: 0;
+    z-index: 101;
+    transition: 0.5s; }
+    header .filtro .contenedor_logo_menu .menu_bar span {
+      float: right;
+      font-size: 1.3em; }
+    header .filtro .contenedor_logo_menu .menu_bar .bt-menu {
+      text-decoration: none;
+      display: block;
+      padding: 20px;
+      color: #FFF;
+      overflow: hidden;
+      font-size: 1.5em;
+      font-weight: 400; }
   header .filtro .contenedor_logo_menu .menu {
-    text-align: center; }
+    top: 76px;
+    height: calc(100% - 76px);
+    width: 100%;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 100;
+    right: 100%;
+    margin: 0;
+    overflow: scroll; }
+    header .filtro .contenedor_logo_menu .menu .redes {
+      display: inline-block;
+      margin: 0 10px;
+      border-bottom: 1px solid rgba(255, 255, 225, 0.2); }
+      header .filtro .contenedor_logo_menu .menu .redes a {
+        color: #FFF;
+        font-size: 2em;
+        padding: 0px 15px; }
+    header .filtro .contenedor_logo_menu .menu li {
+      display: block;
+      border-bottom: 1px solid rgba(255, 255, 225, 0.2); }
+      header .filtro .contenedor_logo_menu .menu li a {
+        display: inline-block; }
   header .filtro .textos .primera_linea {
-    letter-spacing: 4px; }
+    margin-bottom: 20px; }
+  header .filtro .textos .segunda_linea {
+    margin-bottom: 20px; }
   header .filtro .textos .contenedor-btns a {
     width: 90%; } }
 .main .caracteristicas {
@@ -262,7 +329,7 @@ footer {
         transition: 0.5s;
         color: #F5F5F5; }
   footer .contacto .contactos {
-    font-size: 1.2em;
+    font-size: 1.3em;
     text-align: center;
     padding: 10px; }
     footer .contacto .contactos .email {
@@ -324,6 +391,10 @@ footer {
     footer .contacto .contactos .email span {
       margin-right: 0; }
   footer .contacto .img-logo {
-    display: none; } }
+    display: none; }
+  footer .footer .comunidades {
+    text-align: center; }
+  footer .footer .copy {
+    text-align: center; } }
 
 /*# sourceMappingURL=estilos.css.map */

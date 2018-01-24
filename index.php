@@ -4,7 +4,6 @@
 	<meta charset="UTF-8">
 	<title>Progress System Software</title>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<link href="https://fonts.googleapis.com/css?family=Barlow:300,400,600" rel="stylesheet">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/fontawesome/font-awesome.min.css">
 	<link rel="stylesheet" href="css/estilos.css">
@@ -13,7 +12,7 @@
 </head>
 <body>
 	<header>
-		<div class="filtro">
+		<div class="filtro" id="inicio">
 			<?php include("menu.html") ?>
 			<div class="row textos">
 				<div class="col-md-12">
@@ -26,7 +25,6 @@
 					</div>
 				</div>
 			</div>
-			
 		</div>
 	</header>
 	<section class="main" id="fullpage">
@@ -149,7 +147,7 @@
 
 		<!--div class="productos"><div-->
 
-		<div class="precios">
+		<div class="precios" id="precio">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
@@ -167,7 +165,7 @@
 									<li>10 GB de espacio</li>
 									<li>Correo electronico</li>
 								</ul>
-								<p class="nota">Paquete básico no incluye mejoras de SEO pero si optimización de carga.</p>
+								<p class="nota">Paquete básico incluye optimización de carga y diseño del sitio.</p>
 								<a href="#" class="btn">Mas información</a>
 							</div>
 						</div>
@@ -182,7 +180,7 @@
 									<li>10 GB de espacio</li>
 									<li>Base de datos</li>
 								</ul>
-								<p class="nota">El costo de la aplicación, se cotiza aparte según la complejidad de la misma.</p>
+								<p class="nota">El costo de la aplicación, se cotiza según la complejidad de la misma.</p>
 								<a href="#" class="btn">Mas información</a>
 							</div>
 						</div>
@@ -207,7 +205,7 @@
 		</div>
 	</section>
 	<footer>
-		<div class="contacto">
+		<div class="contacto" id="contacto">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-9">
@@ -288,7 +286,7 @@
 					<div class="col-12">
 						<hr>
 					</div>
-					<div class="col-12">
+					<div class="col-12 copy">
 						Progress System Software Copyrights © 2018 All Rights
 					</div>
 				</div>
@@ -297,13 +295,26 @@
 	</footer>
 
 	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="js/bootstrap/bootstrap.min.js"></script>
-
-	<!--script type="text/javascript" src="js/fullpage/jquery.fullpage.min.js"></script>
-	<script type="text/javascript" src="js/fullpage/vendors/jquery.easings.min.js"></script>
-	<script type="text/javascript" src="js/fullpage/vendors/scrolloverflow.min.js"></script-->
-	
 	<script type="text/javascript" src="js/main.min.js"></script>
+	<script>
+		$('a[href=#inicio]').click(function (event){
+			event.stopPropagation();
+			var Position = jQuery('[id="inicio"]').offset().top;
+			jQuery('html, body').animate({ scrollTop: Position }, 1100);
+			return false;
+		});
+		$('a[href=#precio]').click(function (event){
+			event.stopPropagation();
+			var Position = jQuery('[id="precio"]').offset().top - 50;
+			jQuery('html, body').animate({ scrollTop: Position }, 1100);
+			return false;
+		});
+		$('a[href=#contacto]').click(function (event){
+			event.stopPropagation();
+			var Position = jQuery('[id="contacto"]').offset().top - 50;
+			jQuery('html, body').animate({ scrollTop: Position }, 1100);
+			return false;
+		});
+	</script>
 </body>
 </html>
