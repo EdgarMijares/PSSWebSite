@@ -37,23 +37,30 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-sm-4 caracteristica">
-						<img src="img/iconos/icono1.png" alt="">
-						<h3 class="primera_linea">Analítica</h3>
-						<p class="parrafo">A través de la analítica web podremos analizar con mucho más detalle los resultados de las acciones de marketing y tomar las decisiones más  acertadas sobre nuestra web.</p>
+					<div class="col-md-4 col-12 caracteristica">
+						<div class="individual">
+							<img src="img/iconos/icono1.png" alt="">
+							<h3 class="primera_linea">Analítica</h3>
+							<p class="parrafo">A través de la analítica web podremos analizar con mucho más detalle los resultados de las acciones de marketing y tomar las decisiones más  acertadas sobre nuestra web.</p>
+						</div>
 					</div>
 				
-					<div class="col-sm-4 caracteristica">
-						<img src="img/iconos/icono2.png" alt="">
-						<h3 class="primera_linea">Sitio web</h3>
-						<p class="parrafo">Con un sitio Web, potenciales clientes pueden informarse de sus productos y servicios a cualquier hora, desde cualquier lugar con conexión a Internet.</p>
+					<div class="col-md-4 col-12 caracteristica">
+						<div class="individual">
+							<img src="img/iconos/icono2.png" alt="">
+							<h3 class="primera_linea">Sitio web</h3>
+							<p class="parrafo">Con un sitio Web, potenciales clientes pueden informarse de sus productos y servicios a cualquier hora, desde cualquier lugar con conexión a Internet.</p>
+						</div>
 					</div>
 				
-					<div class="col-sm-4 caracteristica">
-						<img src="img/iconos/icono4.png" alt="">
-						<h3 class="primera_linea">Software</h3>
-						<p class="parrafo">Mejoran la capacidad y gestión operativa tanto interna como externa de las compañías y el nivel de competitividad de los negocios se mantiene a la altura del mercado.</p>
+					<div class="col-md-4 col-12 caracteristica">
+						<div class="individual">
+							<img src="img/iconos/icono4.png" alt="">
+							<h3 class="primera_linea">Software</h3>
+							<p class="parrafo">Mejoran la capacidad y gestión operativa tanto interna como externa de las compañías y el nivel de competitividad de los negocios se mantiene a la altura.</p>
+						</div>
 					</div>
+
 				</div>
 			</div>
 		</div>

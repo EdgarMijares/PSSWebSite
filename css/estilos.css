@@ -168,21 +168,22 @@ header {
     text-align: center;
     font-weight: 400;
     font-size: 30px;
-    margin-bottom: 70px; }
+    margin-bottom: 35px; }
   .main .caracteristicas .caracteristica {
-    text-align: center; }
-    .main .caracteristicas .caracteristica img {
+    text-align: center;
+    padding: 15px; }
+    .main .caracteristicas .caracteristica .individual img {
       width: 60%;
       vertical-align: top;
       margin-bottom: 30px; }
-    .main .caracteristicas .caracteristica .primera_linea {
+    .main .caracteristicas .caracteristica .individual .primera_linea {
       color: #FFF;
-      font-weight: 600;
-      font-size: 25px;
-      margin-bottom: 20px; }
-    .main .caracteristicas .caracteristica .parrafo {
       font-weight: 400;
-      font-size: 18px; }
+      font-size: 20px;
+      margin-bottom: 20px; }
+    .main .caracteristicas .caracteristica .individual .parrafo {
+      font-weight: 400;
+      font-size: 14px; }
 .main .fotos {
   background: #243F47;
   padding: 35px 0 35px 0; }
