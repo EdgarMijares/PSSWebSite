@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/fontawesome/font-awesome.min.css">
 	<link rel="stylesheet" href="css/estilos.css">
-	<link rel="icon" type="image/png" href="/img/logosolo.png"/>
+	<link rel="icon" type="image/png" href="img/logosolo.png"/>
 
 	<meta name="theme-color" content="#26424B">
 </head>
