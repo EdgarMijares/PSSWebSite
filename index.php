@@ -4,12 +4,13 @@
 	<meta charset="UTF-8">
 	<title>Progress System Software</title>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/fontawesome/font-awesome.min.css">
-	<link rel="stylesheet" href="css/estilos.css">
-	<link rel="icon" type="image/png" href="img/logosolo.png"/>
-
-	<meta name="theme-color" content="#26424B">
+	<?php include('headerStandar.html'); ?>
+	
+	<meta property="og:url" content="http://pssoftware.com.mx/" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Progress System Software" />
+	<meta property="og:description" content="El progreso siempre implicara un riesgo" />
+	<meta property="og:image" content="http://pssoftware.com.mx/img/meta.png" />
 </head>
 <body>
 	<header>
@@ -131,23 +132,23 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="cliente col-0 col-md-2">
-						<a target="_blank" href=""><img class="img-fluid" src="" alt=""></a>
+					<div class="cliente col-0 col-md-2 none">
+						<a target="_blank" href="http://www.pancholines.com.mx/"><img class="img-fluid" src="img/clientes/pancholines.png" alt="Uniformes pancholines"></a>
 					</div>
 					<div class="cliente col-3 col-md-2">
-						<a target="_blank" href="http://dentalws.com/"><img class="img-fluid" src="img/clientes/whitesmile.png" alt="Clinica dental White Smile" width="100%"></a>
+						<a target="_blank" href="http://dentalws.com/"><img class="img-fluid" src="img/clientes/whitesmile.png" alt="Clinica dental White Smile"></a>
 					</div>
 					<div class="cliente col-3 col-md-2">
 						<a target="_blank" href="http://seandse.com/"><img class="img-fluid" src="img/clientes/seandse.png" alt="Seguridad y servicio SEANDSE"></a>
 					</div>
 					<div class="cliente col-3 col-md-2">
-						<a target="_blank" href="http://www.pancholines.com.mx/"><img class="img-fluid" src="img/clientes/pancholines.png" alt="Uniformes pancholines"></a>
+						<a target="_blank" href="https://www.facebook.com/BordaBien/"><img class="img-fluid" src="img/clientes/bordabien.png" alt="Bordados Borda Bien"></a>
 					</div>
 					<div class="cliente col-3 col-md-2">
-						<a target="_blank" href="https://www.facebook.com/HackerSpaceDGO/"><img class="img-fluid" src="img/clientes/innovatio.png" alt="Innovation Room Hacker Space DGO"></a>
+						<a target="_blank" href="http://bitcamp.com.mx/"><img class="img-fluid" src="img/clientes/bitcamp.png" alt="Bit Camp"></a>
 					</div>
-					<div class="cliente col-0 col-md-2">
-						<a target="_blank" href=""><img class="img-fluid" src="" alt=""></a>
+					<div class="cliente col-0 col-md-2 none">
+						<a target="_blank" href="https://www.facebook.com/HackerSpaceDGO/"><img class="img-fluid" src="img/clientes/innovatio.png" alt="Innovation Room Hacker Space DGO"></a>
 					</div>
 				</div>
 			</div>
@@ -174,7 +175,7 @@
 									<li>Correo electronico</li>
 								</ul>
 								<p class="nota">Paquete básico incluye optimización de carga y diseño del sitio.</p>
-								<a href="#" class="btn">Mas información</a>
+								<a href="#contacto" class="btn">Mas información</a>
 							</div>
 						</div>
 					</div>
@@ -189,7 +190,7 @@
 									<li>Base de datos</li>
 								</ul>
 								<p class="nota">El costo de la aplicación, se cotiza según la complejidad de la misma.</p>
-								<a href="#" class="btn">Mas información</a>
+								<a href="#contacto" class="btn">Mas información</a>
 							</div>
 						</div>
 					</div>
@@ -204,7 +205,7 @@
 									<li>Implementacón</li>
 								</ul>
 								<p class="nota">La cotización se hace en función y características del programa ajustable a presupuesto.</p>
-								<a href="#" class="btn">Mas información</a>
+								<a href="#contacto" class="btn">Mas información</a>
 							</div>
 						</div>
 					</div>
@@ -221,7 +222,7 @@
 						<div class="row">
 							<div class="col-0 col-md-2"></div>
 							<div class="col-md-8">
-								<a href="#" class="btn">Formulario</a>
+								<!--a href="#" class="btn">Formulario</a-->
 							</div>
 							<div class="col-0 col-md-2"></div>
 						</div>
@@ -330,5 +331,18 @@
 			return false;
 		});
 	</script>
+	<script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"url": "http://www.pssoftware.com.mx/",
+		"logo": "http://www.pssoftware.com.mx/perfil.png",
+		"contactPoint": [{
+			"@type": "ContactPoint",
+			"telephone": "+52-618-157-1896",
+			"contactType": "customer service"
+		}]
+	}
+	</script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-85165996-3"></script>
 </body>
 </html>

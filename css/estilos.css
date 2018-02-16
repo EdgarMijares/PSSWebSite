@@ -383,6 +383,8 @@ footer {
     font-size: 1.8em; }
   .main .fotos .parrafo .delete_responsive {
     display: none; }
+  .main .clientes .row .none {
+    display: none; }
 
   footer .contacto .redes {
     text-align: center;
@@ -398,5 +400,8 @@ footer {
     text-align: center; }
   footer .footer .copy {
     text-align: center; } }
+footer {
+  display: absolute;
+  bottom: 100px; }
 
 /*# sourceMappingURL=estilos.css.map */
